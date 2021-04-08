@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.slider1 {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding-left: 4px;
+    height: 384px;
+    position: relative;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 168px;
+}
+
+.app-message,
+.slider-trending,
+.hot-deal-message,
+.exclusive-message {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.app-h2,
+.slider-h2,
+.hot-deal-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.product{
+    text-transform: none;
+    padding-left: 3px;/*Пришлось добавть, так как общий отступ 101=98+3*/
+}
+
+.slider-content,
+.hot-deal-content,
+.exclusive-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    width: 212px;
+    height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.slider-pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.exclusive {
+    height: 683px;
+    width: 1371px;
+}
+
+.exclusive-product1 {
+    height: 683px;
+    width: 683px;
+    display: inline-block;
+    background-image: url(img/promo-img1.jpg);
+}
+
+.exclusive-product {
+    height: 683px;
+    width: 683px;
+    display: inline-block;
+    background-image: url(img/promo-img.jpg);
+}
+
+.exclusive-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive-text {
+    padding-top: 228px;
+    padding-left: 51px;
+}
+
+.exclusive-message {
+    color: #1e88e5;
+}
+
+.featured-and-new {
+    height: 609px;
+    padding-top: 120px;
+}
+.featured-and-new-produt {
+    height: 1966px;
+    padding-top: 71px;
+}
+.featured-h2-product {
+    list-style: none;
+    float: left;
+    display: inline-block;
+}
+.featured-h2-product a {
+    color: #6c6c6c;
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    line-height: 24px;
+    text-decoration: none;
+    padding-right: 14px;
+}
+.active a {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    }
+.nodecor a {
+    border-bottom: 1px solid #FFF;
+}
+
+.featured-h2 a {
+    color: #6c6c6c;
+    display: inline;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+    width: 187px;
+    height: 46px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 36px;
+    display: inline-block;
+    float: left;
+    }
+.featured-h2-active a {
+     color: #6c6c6c;
+    display: inline;
+    font-size: 36px;
+    font-weight: 700;
+    width: 187px;
+    height: 46px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 36px;
+    display: inline-block;
+    float: left;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    }
+
+.featured-products {
+    margin-top: 64px;
+    width: 1213px;
+    list-style-type: none;
+}
+.featured-products-product {
+    margin-top: 50px;
+    width: 1170px;
+    list-style-type: none;
+}
+.feat-prod {
+    display: inline;
+    padding-right: 30px;
+}
+
+.trending {
+    height: 1108px;
+    padding-top: 119px;
+}
+
+.trending-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    display: inline;
+}
+
+.trending-explore,
+.featured-explore {
+    padding-top: 18px;
+    float: right;
+    text-decoration: none;
+}
+
+.trending-explore-text,
+.featured-explore-text {
+    display: inline;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    padding-right: 12px;
+}
+
+.trending-products {
+    margin-top: 64px;
+}
+.trending-products1 {
+    margin-top: 72px;
+}
+.trend-product {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.fig {
+    width: 42px;
+    height: 29px;
+    padding-left: 574px;
+    padding-top: 71px;
+}
+.hot-deals {
+    background-image: url(img/hot-deal.jpg);
+    height: 800px;
+    position: relative;
+}
+
+.hot-deal-text {
+    margin-top: 287px;
+    display: inline-block;
+}
+
+.hot-deal-message {
+    color: #e53935;
+}
+
+.hot-deal-pagination {
+    position: absolute;
+    bottom: 20px;
+    width: 1170px;
+    text-align: center;
+}
+
+.recomendations {
+    height: 810px;
+    padding-top: 120px;
+}
+
+.rec-product {
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.excl-rec {
+    height: 577px;
+    width: 570px;
+    background-image: url(img/product-1-lg.png);
+}
+
+.mobile-app {
+    background-image: url(img/back-app-img.jpg);
+    height: 516px;
+}
+
+.app-text {
+    margin-top: 125px;
+    display: inline-block;
+}
+
+.app-message {
+    color: #6c6c6c;
+}
+
+.app-content {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 33px;
+    margin-top: 26px;
+}
+
+.in-touch-info,
+.contact-info,
+.useful-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.in-touch-h3,
+.contact-h3,
+.useful-h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.in-touch-h3,
+.contact-h3 {
+    margin-bottom: 24px;
+}
+
+.contact-text,
+.in-touch-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.useful-info {
+    margin-left: 80px;
+}
+
+.useful-list {
+    display: inline-block;
+    width: 235px;
+}
+
+.useful-item {
+    list-style-type: none;
+}
+
+.useful-link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.in-touch-info {
+    margin-left: 30px;
+}
+
+.email {
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    width: 370px;
+    height: 48px;
+    margin-top: 26px;
+}
+
+input.email::placeholder {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-info {
+    display: inline-block;
+    margin-top: 120px;
+    width: 1195px;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 38px;
+    width: 1190px;
+    text-align: center;
+}
+
+.copyright-text,
+.privacy-policy {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding-top: 8px;
+    display: inline;
+}
+
+.copyright-text {
+    float: left;
+}
+
+.privacy-policy {
+    float: right;
+}
+
+.social-links {
+    width: 129px;
+    height: 28px;
+}
